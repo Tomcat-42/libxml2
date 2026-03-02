@@ -1,0 +1,12 @@
+.{
+    .name = .libxml2,
+    .version = "2.15.1",
+    .dependencies = .{
+        .libxml2_c = .{
+            .url = "https://gitlab.gnome.org/GNOME/libxml2/-/archive/v2.15.1/libxml2-v2.15.1.tar.gz",
+            .hash = "N-V-__8AAGDwMQF2IHBGW-iuy3HD7ZCfVEALdBc3_ZVjfUV3",
+        },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "README.md", "LICENSE" },
+    .fingerprint = 0xf268267b46566cbf,
+}
